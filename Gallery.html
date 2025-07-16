@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery | Delish Bites & Sips</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="home">
+  <header>
+    <div class="navbar">
+      <div class="logo"><a href="index.html">Delish</a></div>
+      <div id="clock"></div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Categories</a>
+            <div class="dropdown">
+              <a href="African.html">African</a>
+              <a href="Americas.html">Americas</a>
+              <a href="Asian.html">Asian</a>
+              <a href="European.html">European</a>
+              <a href="Oceanian.html">Oceanian</a>
+            </div>
+          </li>
+          <li><a href="Video.html">Video</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Feedback.html">Feedback</a></li>
+           <li><a href="contact us.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Slideshow -->
+  <div class="slideshow-container">
+    <img class="slide active-slide" src="Images/Top-Food-Influencers-scaled.webp" alt="Slide 1">
+    <img class="slide" src="Images/top food.jpg" alt="Slide 2">
+    <img class="slide" src="Images/Background 3.jpg" alt="Slide 3">
+
+    <div class="dots-container">
+      <span class="dot active" onclick="showSlide(0)"></span>
+      <span class="dot" onclick="showSlide(1)"></span>
+      <span class="dot" onclick="showSlide(2)"></span>
+    </div>
+  </div>
+
+  <!-- Influencer Gallery -->
+  <!-- Influencer Gallery -->
+<section class="gallery">
+  <h2>Top 5 Food Influencers</h2>
+  <div class="gallery-grid"> <!-- Tambah grid wrapper di sini -->
+    <div class="gallery-item">
+      <a href="czn-burak.html" style="text-decoration: none; color: inherit;">
+        <img src="Images/Chef CZN Burak.webp" alt="CZN Burak">
+        <div class="gallery-caption">
+          <strong>CZN Burak (@cznburak)</strong><br>
+          IG: ~54.5M | TikTok: ~75M<br>
+          Famous for huge portions & smiling presentation.<br>
+          Country: Turkey<br>
+          <small><em>Source: Glewee</em></small>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="gordon-ramsay.html" style="text-decoration: none; color: inherit;">
+        <img src="Images/Gordon Ramsey.webp" alt="Gordon Ramsay">
+        <div class="gallery-caption">
+          <strong>Gordon Ramsay (@gordongram)</strong><br>
+          IG: ~17.1M<br>
+          Known for TV shows & fiery reactions.<br>
+          Country: UK<br>
+          <small><em>Source: Social Blade</em></small>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="jamie-oliver.html" style="text-decoration: none; color: inherit;">
+        <img src="Images/Jamie Oliver.webp" alt="Jamie Oliver">
+        <div class="gallery-caption">
+          <strong>Jamie Oliver (@jamieoliver)</strong><br>
+          IG: ~10.2M<br>
+          Focus on family meals & healthy cooking.<br>
+          Country: UK<br>
+          <small><em>Source: Instagram</em></small>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="salt-bae.html" style="text-decoration: none; color: inherit;">
+        <img src="Images/Salt Bae Nusret.jpg" alt="Salt Bae">
+        <div class="gallery-caption">
+          <strong>Salt Bae (@nusr_et)</strong><br>
+          IG: ~53M<br>
+          Famous for viral salt-sprinkle & steak empire.<br>
+          Country: Turkey<br>
+          <small><em>Source: Business Insider</em></small>
+        </div>
+      </a>
+    </div>
+
+    <div class="gallery-item">
+      <a href="khairul-aming.html" style="text-decoration: none; color: inherit;">
+        <img src="Images/khairul aming.webp" alt="Khairul Aming">
+        <div class="gallery-caption">
+          <strong>Khairul Aming (@khairulaming)</strong><br>
+          IG: ~3.6M | TikTok: ~3.7M<br>
+          Creator of "30 Hari 30 Resepi", Sambal Nyet.<br>
+          Country: Malaysia<br>
+          <small><em>Source: IG/TikTok/YouTube 2025</em></small>
+        </div>
+      </a>
+    </div>
+  </div> <!-- Tutup .gallery-grid -->
+</section>
+
+
+  <!-- Top 5 Foods Gallery -->
+  <section class="gallery">
+    <h2>Top 5 Most Popular Foods in the World</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="Images/Cheese-Pizza.jpg" alt="Pizza">
+        <div class="gallery-caption">
+          <strong>Pizza</strong><br>
+          Origin: Italy<br>
+          World’s most beloved comfort food.<br>
+          <small><em>Source: TasteAtlas, CNN Travel</em></small>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Images/Sushi.jpg" alt="Sushi">
+        <div class="gallery-caption">
+          <strong>Sushi</strong><br>
+          Origin: Japan<br>
+          Iconic dish of vinegared rice and raw fish.<br>
+          <small><em>Source: YouGov, TasteAtlas</em></small>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Images/Tacos.jpeg" alt="Tacos">
+        <div class="gallery-caption">
+          <strong>Tacos</strong><br>
+          Origin: Mexico<br>
+          Versatile street food with global fans.<br>
+          <small><em>Source: YouGov, CNN Travel</em></small>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Images/Ramen.jpg" alt="Ramen">
+        <div class="gallery-caption">
+          <strong>Ramen</strong><br>
+          Origin: Japan<br>
+          Savory noodle soup with endless variations.<br>
+          <small><em>Source: TasteAtlas</em></small>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="Images/butter chicken.jpg" alt="Butter Chicken">
+        <div class="gallery-caption">
+          <strong>Butter Chicken</strong><br>
+          Origin: India<br>
+          Creamy tomato-based curry loved worldwide.<br>
+          <small><em>Source: BBC Food, YouGov</em></small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Delish Bites & Sips. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
